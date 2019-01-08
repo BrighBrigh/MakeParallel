@@ -1,11 +1,13 @@
 from multiprocessing import Process, cpu_count, Pool
-import os
-import pandas as pd
 import numpy as np
+import pandas as pd
 
 def MakeParallel(function, argu):
     p = Process(target=function, args=argu)
     p.start()
+
+
+### Use this function to parallelize pandas DataFrame operations
 
 def parallelize(data, func):
     cores = cpu_count() #Number of CPU cores on your system
