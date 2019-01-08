@@ -2,9 +2,8 @@
 Simple Python library to have a function utilize multiple CPU cores
 
 # Installation
-1. Download or clone repository
-2. `cd MakeParallel/`
-3. `pip install .`
+1. Download or clone repository: `git clone https://github.com/BrighBrigh/MakeParallel.git && cd MakeParallel/`
+2. Install using pip: `pip install .`
 
 # Usage
 
