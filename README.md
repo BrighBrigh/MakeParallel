@@ -9,7 +9,7 @@ Simple Python library to have a function utilize multiple CPU cores
 # Usage
 
 1. Import: `from MakeParallel import MakeParallel`
-2. `MakeParallal(funct, args)` where `funct` is a function to be called to be made parallel and `args` is a tuple of arguments to be passed into the function.
+2. Call `MakeParallel(funct, args)` where `funct` is a function to be called to be made parallel and `args` is a tuple of arguments to be passed into the function.
 
 # Example
 ```python
