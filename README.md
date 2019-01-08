@@ -1,6 +1,11 @@
 # MakeParallel
 Simple Python library to have a function utilize multiple CPU cores
 
+# Dependancies
+* pandas >= 0.23.4
+* numpy >= 1.15.4
+* Python 3.7.1
+
 # Installation
 1. Download or clone repository: `git clone https://github.com/BrighBrigh/MakeParallel.git && cd MakeParallel/`
 2. Install using pip: `pip install .`
